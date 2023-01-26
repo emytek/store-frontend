@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://localhost:8080",
+    baseURL: "https://simple-product-store.fly.dev/",
 });
 
 export default instance;
